@@ -22,6 +22,10 @@ let fetchApi = async () => {
     }
 }
 
+const hello = () => {
+    
+}
+
 const renderUI = (articles) => {
     while (main.firstChild) {
         main.removeChild(main.lastChild)
