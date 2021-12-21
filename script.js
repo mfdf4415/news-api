@@ -9,6 +9,7 @@ const handleSearch = () => {
         renderUI(res.articles)
     })
 }
+let hello = 'hello' 
 
 let fetchApi = async () => {
     try {
@@ -18,8 +19,6 @@ let fetchApi = async () => {
         console.log("error", error)
     }
 }
-
-
 
 const renderUI = (articles) => {
     while (main.firstChild) {
