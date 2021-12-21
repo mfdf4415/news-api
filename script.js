@@ -11,7 +11,7 @@ const handleSearch = () => {
 }
 let hello = 'hello' 
 
-
+// new line added to script.js in test branch.
 
 let fetchApi = async () => {
     try {
