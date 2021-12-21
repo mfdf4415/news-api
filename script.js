@@ -11,6 +11,7 @@ const handleSearch = () => {
 }
 let hello = 'hello' 
 
+
 let fetchApi = async () => {
     try {
         const response = await fetch(url)
