@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: #61890910;
+}
+header
+{
+    background-color: #3d88df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    width: 100%;
+}
+header label
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+header #search
+{
+    color: #5a5a5a;
+    width: 35%;
+    border: 1px solid #000;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 18px;
+}
